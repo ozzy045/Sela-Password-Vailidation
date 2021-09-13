@@ -39,6 +39,8 @@ fi
 if   ((flag==0))
 then 
   echo "$(tput setaf 2) $password"
+  exit 0;
   else
   echo "$(tput setaf 1) $password"
+  exit 1;
 fi
